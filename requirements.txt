@@ -1,0 +1,5 @@
+manim
+ipython
+jupyterlab
+pycairo
+Pillow
