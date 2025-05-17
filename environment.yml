@@ -6,8 +6,8 @@ dependencies:
   - manim
   - jupyterlab
   - ffmpeg
-  - tectonic        # lightweight LaTeX
+  - tectonic
   - pygments
   - pip
   - pip:
-      - manim[jupyter]  # enables %%manim IPython extension
+      - manim[jupyter]
