@@ -1,11 +1,7 @@
 name: manim-env
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10
-  - pip
-  - jupyterlab
   - manim
-  - pip:
-      - ipython
+  - jupyterlab
