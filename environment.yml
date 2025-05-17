@@ -6,7 +6,7 @@ dependencies:
   - manim
   - jupyterlab
   - ffmpeg
-  - tectonic
+  - texlive-core        # ✅ full LaTeX (reliable)
   - pygments
   - pip
   - pip:
