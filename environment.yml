@@ -5,10 +5,9 @@ dependencies:
   - python=3.10
   - manim
   - jupyterlab
-  - tectonic         # ✅ Lightweight LaTeX engine
-  - ffmpeg           # ✅ Needed for rendering videos
-  - cairo            # ✅ Ensures Manim works smoothly
-  - pygments         # ✅ Code rendering in LaTeX
+  - ffmpeg
+  - tectonic            # ✅ Lightweight LaTeX engine
+  - pygments
   - pip
   - pip:
-      - manim[jupyter]
+      - manim[jupyter]  # ✅ Enables %%manim magic
